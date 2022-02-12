@@ -91,6 +91,7 @@ input {
 
 input {
   background-color: black;
+  width: 70%;
 }
 
 input::placeholder {
