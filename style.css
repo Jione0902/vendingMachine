@@ -76,12 +76,18 @@ section {
   height: 30%;
 }
 
+.big-input {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 button,
 input {
   font-size: 1.3rem;
   text-align: center;
   border: none;
-/*   padding: 0.8rem 2rem; */
+  /* padding: 0.8rem 2rem; */
   margin-top: 1.3rem;
   justify-content: center;
   cursor: pointer;
@@ -91,7 +97,7 @@ input {
 
 input {
   background-color: black;
-  width: 70%;
+  width: 80%;
 }
 
 input::placeholder {
