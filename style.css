@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "YUniverse-B";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "YUniverse-B";
+}
+
+@media screen and (max-width: 425px) {
+  section {
+    width: 90vw;
+    min-width: 260px;
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 425px) {
+  section {
+    width: 360px;
+    height: 640px;
+  }
+}
+body {
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 8, 46, 1) 51%,
+    rgba(99, 99, 99, 1) 100%
+  );
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+article {
+  width: 100%;
+}
+
+section {
+  background: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #000;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30%;
+}
+
+button,
+input {
+  font-size: 1.3rem;
+  text-align: center;
+  border: none;
+  padding: 9px 25px;
+  margin-top: 1.3rem;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50px;
+  color: white;
+}
+
+input {
+  background-color: black;
+}
+
+input::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.781);
+}
+
+input:focus {
+  background-color: black;
+  outline: none;
+}
+
+.result-btn {
+  background-color: #1a5fe8;
+}
+
+.comment {
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #eaeaea;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  position: absolute;
+  top: 96%;
+  left: 38%;
+  bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+span {
+  display: contents;
+}
