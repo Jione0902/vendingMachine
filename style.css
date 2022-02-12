@@ -87,7 +87,7 @@ input {
   font-size: 1.3rem;
   text-align: center;
   border: none;
-  padding: 0.8rem 2rem;
+  padding: 0.7rem 1.8rem;
   margin-top: 1.3rem;
   justify-content: center;
   cursor: pointer;
@@ -116,7 +116,7 @@ input:focus {
 
 .comment {
   font-size: 1.2rem;
-  margin-top: 4rem;
+  margin-top: 8%;
   width: 100%;
   padding: 2rem 0;
   background-color: #eaeaea;
